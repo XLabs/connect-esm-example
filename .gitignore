@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# IDE
+.vscode/
+.idea/
+
+# misc
+npm-debug.log
+
+# tests
+/coverage
+/.nyc_output
+
+# dist
+dist/
+

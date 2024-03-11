@@ -1,0 +1,23 @@
+{
+  "name": "connect-sdk-example-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "build-start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@wormhole-foundation/sdk": "^0.5.0-beta.8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
